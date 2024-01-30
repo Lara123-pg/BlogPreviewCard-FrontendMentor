@@ -14,8 +14,8 @@
 Clone o projeto em seu dispositivo e acesse a pasta do mesmo.
 
 ```
-$ git clone 
-$ cd 
+$ git clone https://github.com/Lara123-pg/BlogPreviewCard-FrontendMentor.git
+$ cd BlogPreviewCard-FrontendMentor
 $ code .  (Abrir o Visual Studio Code)
 ```
 
