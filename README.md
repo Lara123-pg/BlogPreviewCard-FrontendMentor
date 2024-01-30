@@ -27,6 +27,8 @@ Blog Preview Card é um desafio da plataforma FrontendMentor, que tem o objetivo
 
 # Link do projeto hospedado
 
+Link: https://blog-preview-card-frontendmentor.vercel.app/
+
 # Autor
 
 Lara Fernanda
