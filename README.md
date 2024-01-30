@@ -35,4 +35,4 @@ Email: lamorimalvescavalcante@gmail.com
 
 # Licença
 
-Este projeto está sob a licença MIT
+Este projeto está sob a licença MIT - https://github.com/Lara123-pg/BlogPreviewCard-FrontendMentor/blob/main/LICENSE
