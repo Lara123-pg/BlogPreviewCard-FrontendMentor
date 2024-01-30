@@ -5,8 +5,8 @@ import imageAvatar from "../assets/image-avatar.webp";
 
 export function BlogCard() {
     return (
-        <div id="container">
-            <div id="card">
+        <div id="container" role="container">
+            <div id="card" role="main">
                 <img src={illustrationArticle} alt="Imagem de ilustração com cores amarela e preta" />
 
                 <div id="publication">
@@ -29,7 +29,7 @@ export function BlogCard() {
                 </footer>
             </div>
 
-            <div id="attribution">
+            <div id="attribution" role="informations">
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noreferrer" target="_blank">Frontend Mentor</a>. 
                 Coded by <a href="https://github.com/Lara123-pg" rel="noreferrer" target="_blank">Lara Fernanda</a>.
             </div>
