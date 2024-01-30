@@ -1,6 +1,6 @@
 # Blog Preview Card 
 
-<img src="./src/assets/image1.png"/>
+<img src="./src/assets/image.png"/>
 
 # Tecnologias
 
