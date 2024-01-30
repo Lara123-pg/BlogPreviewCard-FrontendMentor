@@ -7,7 +7,7 @@ export function BlogCard() {
     return (
         <div id="container">
             <div id="card">
-                <img src={illustrationArticle} role="Image" alt="Imagem de ilustração com cores amarela e preta" />
+                <img src={illustrationArticle} alt="Imagem de ilustração com cores amarela e preta" />
 
                 <div id="publication">
                     <span id="box">Learning</span>
