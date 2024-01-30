@@ -1,0 +1,100 @@
+@import "global";
+@import "variables";
+@import "display";
+@import "fonts";
+
+div#container {
+    width: 100%;
+    max-width: 350px;
+
+    div#card {
+        background-color: $background-card;
+
+        padding: 18px;
+
+        border-radius: 20px;
+        border: 1px solid $titlesBorders;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 16px;
+
+        margin-bottom: 2em;
+
+        box-shadow: 10px 10px $titlesBorders;
+
+        img {
+            width: 100%;
+        
+            border-radius: 15px;
+        }
+
+        div#publication {
+            @include display(flex-start);
+            flex-direction: column;
+            
+            width: 100%;
+   
+            span#box {
+                @include fonts(0.8em, 800);
+
+                max-width: 82px;
+                
+                background-color: $background;
+
+                padding: 10px;
+                text-align: center;
+                border-radius: 3px;
+
+                margin-bottom: 10px;
+            }
+
+            p#textPublication {
+                @include fonts(0.75em, 600);
+            }
+        }
+
+        main {
+            @include display(flex-start);
+            flex-direction: column;
+       
+            gap: 15px;
+
+
+            h1 {
+                @include fonts(1.5em, 800);
+
+                cursor: pointer;
+            }
+
+            h1:hover {
+                color: $background;
+            }
+
+            p {
+                @include fonts(0.9em, 600);
+                color: $texts;
+            }
+        }
+
+        footer {
+            @include display('', center);
+
+            gap: 10px;
+
+            div#imageProfile img {
+                width: 35px;
+            }
+
+            p {
+                font-weight: 800;
+            }
+        }
+    }
+
+    div#attribution {
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
